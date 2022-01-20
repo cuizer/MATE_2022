@@ -22,8 +22,6 @@ SEVO_DutyTypeDef SEVO_Angle ;
 REMO_DataTypeDef REMO_Data ;
 	/* ÍÓÂÝÒÇÊý¾Ý */
 GYRO_DataTypeDef GYRO_Data ;
-
-GYRO1_DataTypeDef GYRO1_DATA;
 							/* -------- Task variables ---------*/
 							
 							
