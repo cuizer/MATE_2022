@@ -24,9 +24,6 @@ REMO_DataTypeDef REMO_Data ;
 GYRO_DataTypeDef GYRO_Data ;
 
 GYRO1_DataTypeDef GYRO1_DATA;
-
-RemoteDataPortStruct	RemoteDataPort;
-
 							/* -------- Task variables ---------*/
 							
 							

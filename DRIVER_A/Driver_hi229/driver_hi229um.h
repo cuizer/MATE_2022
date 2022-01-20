@@ -26,5 +26,4 @@ uint8_t HI229_Get_Gyroscope_Speed(float *gx, float *gy, float *gz);
 
 uint8_t HI229_Get_Gyroscope_Acceleration(float *ax, float *ay, float *az);
 
-float GetYawGyroValue(void);
 #endif

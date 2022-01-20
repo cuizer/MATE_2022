@@ -1,6 +1,5 @@
 #include "driver_hi229um.h"
 #include "math.h"
-#include "Variables.h"
 
 #define GYRO_FRAME_LENGTH (40u)
 
@@ -49,7 +48,3 @@ void get_HI229UMGyroData(GYRO1_DataTypeDef* gyro_data)
 //	*az = (int16_t)((GyroData[14]<<8)+ GyroData[13]) / 10.0f;
 //	return 0;
 //}
-float GetYawGyroValue(void)
-{
-	return	GYRO1_DATA.Angle.y_Yaw;
-}
